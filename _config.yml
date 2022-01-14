@@ -1,4 +1,4 @@
-title: Congcong Li's blog
+title: Congcong Li's Blog
 author:
   name: lufficc
 #  email: luffy.lcc@gmail.com
@@ -52,7 +52,8 @@ minima:
 
 # Build settings
 theme: minima
-
+disqus:
+  shortname: congcongliblog
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
