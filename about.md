@@ -19,14 +19,17 @@ I received the B.Eng. degree from University of Electronic Science and Technolog
   Intern at SAP Chengdu, China
 
 ## Publications
+- [**End-to-End Compressed Video Representation Learning for Generic Event Boundary Detection**](https://arxiv.org/abs/2203.15336)  
+  **Congcong Li**, Xinyao Wang, Longyin Wen, Dexiang Hong, Tiejian Luo, Libo Zhang  
+  *Conference on Computer Vision and Pattern Recognition (CVPR), 2022*
 - [**Spatial Attention Pyramid Network for Unsupervised Domain Adaptation**](https://arxiv.org/abs/2003.12979)  
-  **Congcong Li**, Dawei Du, Libo Zhang, Longyin Wen, Tiejian Luo, Yanjun Wu, Pengfei Zhu
+  **Congcong Li**, Dawei Du, Libo Zhang, Longyin Wen, Tiejian Luo, Yanjun Wu, Pengfei Zhu  
   *European Conference on Computer Vision (ECCV), 2020*
 - [**Iterative Knowledge Distillation for Automatic Check-Out**](https://isrc.iscas.ac.cn/zhanglibo/pdfs/2020/IEEE_Transactions_on_Multimedia.pdf)  
-  Libo Zhang, Dawei Du, **Congcong Li**, Yanjun Wu, Tiejian Luo
+  Libo Zhang, Dawei Du, **Congcong Li**, Yanjun Wu, Tiejian Luo  
   *IEEE Transactions on Multimedia (TMM), 2020*
 - [**Data Priming Network for Automatic Check-Out**](https://arxiv.org/abs/1904.04978)  
-  **Congcong Li**, Dawei Du, Libo Zhang, Tiejian Luo, Yanjun Wu, Qi Tian, Longyin Wen, Siwei Lyu
+  **Congcong Li**, Dawei Du, Libo Zhang, Tiejian Luo, Yanjun Wu, Qi Tian, Longyin Wen, Siwei Lyu  
   *ACM International Conference on Multimedia (ACM), 2019*
 
 ## Projects
