@@ -22,6 +22,8 @@ I received the B.Eng. degree from University of Electronic Science and Technolog
 - [**End-to-End Compressed Video Representation Learning for Generic Event Boundary Detection**](https://arxiv.org/abs/2203.15336)  
   **Congcong Li**, Xinyao Wang, Longyin Wen, Dexiang Hong, Tiejian Luo, Libo Zhang  
   *Conference on Computer Vision and Pattern Recognition (CVPR), 2022*
+- [**Generic Event Boundary Detection Challenge at CVPR 2021 Technical Report: Cascaded Temporal Attention Network (CASTANET)**](https://arxiv.org/abs/2107.00239)  
+  Dexiang Hong, **Congcong Li**, Longyin Wen, Xinyao Wang, Libo Zhang  
 - [**Spatial Attention Pyramid Network for Unsupervised Domain Adaptation**](https://arxiv.org/abs/2003.12979)  
   **Congcong Li**, Dawei Du, Libo Zhang, Longyin Wen, Tiejian Luo, Yanjun Wu, Pengfei Zhu  
   *European Conference on Computer Vision (ECCV), 2020*
