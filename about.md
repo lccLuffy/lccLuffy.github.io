@@ -19,6 +19,8 @@ I received the B.Eng. degree from University of Electronic Science and Technolog
   Intern at SAP Chengdu, China
 
 ## Publications
+- [**Structured Context Transformer for Generic Event Boundary Detection**](https://arxiv.org/abs/2206.02985)  
+  **Congcong Li**, Xinyao Wang, Dexiang Hong, Yufei Wang, Libo Zhang, Tiejian Luo, Longyin Wen
 - [**End-to-End Compressed Video Representation Learning for Generic Event Boundary Detection**](https://arxiv.org/abs/2203.15336)  
   **Congcong Li**, Xinyao Wang, Longyin Wen, Dexiang Hong, Tiejian Luo, Libo Zhang  
   *Conference on Computer Vision and Pattern Recognition (CVPR), 2022*
