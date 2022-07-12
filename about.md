@@ -1,6 +1,6 @@
 ---
 layout: page
 title: About
-permalink: /about/
+permalink: https://lufficc.com/
 url: https://lufficc.com/
 ---
