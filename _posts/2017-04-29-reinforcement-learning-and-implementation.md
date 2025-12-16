@@ -10,13 +10,13 @@ lang: zh-CN
 
 自此，在机器学习领域，除了监督学习和非监督学习，强化学习（Reinforcement Learning）也逐渐走进人们的视野。
 
-![机器学习的分支](https://static.lufficc.com/image/ceWHtcPW00Ff2a7efdUkWr8jX8Q3WK59woDSSW1i.png){.to-figure}
+![机器学习的分支](https://static.lufficc.com/image/ceWHtcPW00Ff2a7efdUkWr8jX8Q3WK59woDSSW1i.png)
 
 ## 强化学习
 
 以打砖块游戏为例，游戏中你控制底部的挡板来反弹小球，来清除屏幕上半部分的砖块。每次你打中砖块，分数增加，你也得到一个奖励，而没有接到小球则会受到惩罚。
 
-![打砖块游戏](https://static.lufficc.com/image/UnFkD9ztoJuwAfJEe3KgraWIhOs1zNHrQR5Sc5Ih.png){.to-figure}
+![打砖块游戏](https://static.lufficc.com/image/UnFkD9ztoJuwAfJEe3KgraWIhOs1zNHrQR5Sc5Ih.png)
 
 假设让一个神经网络来玩这个游戏， 输入是屏幕图像，输出将是三个动作：左，右或发射球。很明显这是一个分类问题，对于每一帧图像，我们计算到到一个动作即可（为屏幕数据分类）。 但是听起来很简单，实际上有很多有挑战性的细节。因为我们当前的动作奖励有可能是在此之后一段时间获得的。不像监督学习，对于每一个样本，都有一个确定的标签与之对应，而强化学习没有标签，只有一个**时间延迟**的奖励，而且游戏中我们往往牺牲当前的奖励来获取将来更大的奖励。因为我们的小球在打到砖块，获得奖励时，事实上挡板并没有移动，该奖励是由于之前的一系列动作来获得的。这就是信用分配问题（Credit Assignment Problem），即当前的动作要为将来获得更多的奖励负责。
 
@@ -91,13 +91,13 @@ MDP 中有两个对象：**Agent** 和 **Environment**。
 
 这就是**贝尔曼方程（Bellman equation）**，当前状态 *s* 的最大将来奖励等于下一状态 *s'* 的最大将来奖励乘以折扣因子。这样我们就可以用贝尔曼方程来近似了，最简单的方法就是把Q函数看作二维数组，行代表状态，列代表动作，那么算法描述如下：
 
-![算法实现--表格版](https://static.lufficc.com/image/SWxXL1yOp2M6206hbZqx83uk1LrfzRKc47LoNTlo.png){.to-figure}
+![算法实现--表格版](https://static.lufficc.com/image/SWxXL1yOp2M6206hbZqx83uk1LrfzRKc47LoNTlo.png)
 
 *α*是一个学习速率（learning rate），它控制了先前的Q值和新的Q值之间的差异有多少被考虑在内。 特别地，当*α* = 1时，则两个 *Q [s，a]* 抵消，更新与贝尔曼方程完全相同。
 
 我们用来更新 *Q [s，a]* 的 *maxQ [s'，a']* 一开始只是随机的，但随着迭代，会慢慢收敛，最终近似于真实值。具体的例子可以参看这里：[A Painless Q-Learning Tutorial](http://mnemstudio.org/path-finding-q-learning-tutorial.htm) （中文版：[一个 Q-learning 算法的简明教程](http://blog.csdn.net/pi9nc/article/details/27649323)），详细地一步一步介绍了是怎么收敛的。
 
-![收敛的Q表格](https://static.lufficc.com/image/iRvxyhTxa6VzScmAnmx2buCKMQcbXUatS6lgLB1c.png){.to-figure}
+![收敛的Q表格](https://static.lufficc.com/image/iRvxyhTxa6VzScmAnmx2buCKMQcbXUatS6lgLB1c.png)
 
 ## Deep Q Network
 
@@ -596,4 +596,5 @@ def egreedy_action(self, state):
 1. [Guest Post (Part I): Demystifying Deep Reinforcement Learning](https://www.nervanasys.com/demystifying-deep-reinforcement-learning/)
 1. [UCL Course on RL](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching.html)
 1. [A Painless Q-Learning Tutorial](http://mnemstudio.org/path-finding-q-learning-tutorial.htm)
+
 1. [DQN 从入门到放弃1 DQN与增强学习](https://zhuanlan.zhihu.com/p/21262246)
